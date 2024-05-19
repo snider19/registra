@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background: linear-gradient(135deg, #800080, #00c8ff, #40e0d0, #ccff99);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+h1{
+    text-align: center;
+}
+#registro-form {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid hsl(0, 48%, 33%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(119, 7, 7, 0.959);
+    color: hsl(160, 42%, 54%);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid hsla(0, 80%, 40%, 0.493);
+}
+
+button[type="submit"] {
+    background-color: rgb(18, 87, 81);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(209, 39%, 40%);
+}
+
+#correo-generado {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(180, 33%, 1%);
+    text-align: center;
+    background-color: hwb(167 8% 40%);
+    color: #fff;
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 350px; 
+    display: block; 
+    margin: 0 auto; 
+}

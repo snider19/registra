@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de IMC y Edad de Mascota</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+
+  <h1>Calculadora de IMC</h1>
+
+<form id="calculatorForm">
+  <h1>Calculadora de IMC</h1>
+    <label for="weight">Peso (kg):</label>
+    <input type="text" id="weight" name="weight" placeholder="Ingresa tu peso">
+    
+    <label for="height">Altura (m):</label>
+    <input type="text" id="height" name="height" placeholder="Ingresa tu altura">
+    
+    <button type="button" onclick="calculateBMI()">Calcular IMC</button>
+
+    <div id="bmiResult" class="result" style="padding-top: 10px;"></div>
+  </form>
+
+</body>
+</html>
